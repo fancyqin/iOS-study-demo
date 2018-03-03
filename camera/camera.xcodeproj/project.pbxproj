@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2F269C2045281900FFDF1B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2F269B2045281900FFDF1B /* SecondViewController.m */; };
+		BD2F269F2045381B00FFDF1B /* Defaultinstance.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2F269E2045381B00FFDF1B /* Defaultinstance.m */; };
 		BD2F7CAB2015CC6F00D56EF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2F7CAA2015CC6F00D56EF2 /* AppDelegate.m */; };
 		BD2F7CAE2015CC6F00D56EF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2F7CAD2015CC6F00D56EF2 /* ViewController.m */; };
 		BD2F7CB12015CC6F00D56EF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2F7CAF2015CC6F00D56EF2 /* Main.storyboard */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD2F269A2045281900FFDF1B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BD2F269B2045281900FFDF1B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BD2F269D2045381B00FFDF1B /* Defaultinstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defaultinstance.h; sourceTree = "<group>"; };
+		BD2F269E2045381B00FFDF1B /* Defaultinstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Defaultinstance.m; sourceTree = "<group>"; };
 		BD2F7CA62015CC6F00D56EF2 /* camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2F7CA92015CC6F00D56EF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD2F7CAA2015CC6F00D56EF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -114,6 +120,10 @@
 				BD2F7CB42015CC6F00D56EF2 /* LaunchScreen.storyboard */,
 				BD2F7CB72015CC6F00D56EF2 /* Info.plist */,
 				BD2F7CB82015CC6F00D56EF2 /* main.m */,
+				BD2F269A2045281900FFDF1B /* SecondViewController.h */,
+				BD2F269B2045281900FFDF1B /* SecondViewController.m */,
+				BD2F269D2045381B00FFDF1B /* Defaultinstance.h */,
+				BD2F269E2045381B00FFDF1B /* Defaultinstance.m */,
 			);
 			path = camera;
 			sourceTree = "<group>";
@@ -283,6 +293,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD2F269F2045381B00FFDF1B /* Defaultinstance.m in Sources */,
+				BD2F269C2045281900FFDF1B /* SecondViewController.m in Sources */,
 				BDCB7A6F20206D6E004309F2 /* CMcameraController.m in Sources */,
 				BD2F7CAE2015CC6F00D56EF2 /* ViewController.m in Sources */,
 				BD2F7CB92015CC6F00D56EF2 /* main.m in Sources */,
